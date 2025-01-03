@@ -10,14 +10,14 @@ API_ID = int(os.environ.get("API_ID", "29872536"))
 API_HASH = os.environ.get("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6698364560"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1110013191"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://kratosnigger:GuH0qHewCzuynCE4@telegram.mhwll.mongodb.net/")
 DB_NAME = os.environ.get("DB_NAME", "alucard")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002484543404"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", " -1002355383131"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001937066114"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
@@ -68,7 +68,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6698364560)
+ADMINS.append(6663845789)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
